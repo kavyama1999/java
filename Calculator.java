@@ -14,8 +14,9 @@ System.out.println( charArray[i]);
 System.out.println(charArray[4]);
 
 short shortArray[]={(short)15000,(short)25000,(short)1000,(short)2000,(short)3000,(short)25000,(short)23000,(short)12000,(short)22000,(short)31000,(short)26000,(short)14000,(short)15000,(short)8000,(short)31000,(short)2500,(short)7800,(short)4520,(short)3654,(short)28000};
-    for(int i=0;i<20;i++)
+    for(int i=0;i<20;i++){
 	System.out.println("short " + shortArray[i]);
+	}
 	
 
 
