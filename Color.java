@@ -30,7 +30,7 @@ for(int i=byteArray.length-1;i>=0;i--)//reverse array
 				System.out.println(byteArray[i]);
 			}
 			System.out.println("right array");
-			for(int i=(byteArray.length-1)/2;i<byteArray.length-1;i++)
+			for(int i=(byteArray.length-1)/2;i<byteArray.length;i++)
 			{
 				System.out.println(byteArray[i]);//right array
 			}
@@ -75,7 +75,7 @@ for(int i=byteArray.length-1;i>=0;i--)//reverse array
 				System.out.println(charArray[i]);
 			}
 			System.out.println("right array");
-			for(int i=(charArray.length-1)/2;i<charArray.length-1;i++)
+			for(int i=(charArray.length-1)/2;i<charArray.length;i++)
 			{
 				System.out.println(charArray[i]);//right array
 			}
@@ -119,7 +119,7 @@ for(int i=byteArray.length-1;i>=0;i--)//reverse array
 				System.out.println(floatArray[i]);
 			}
 			System.out.println("right array");
-			for(int i=(floatArray.length-1)/2;i<floatArray.length-1;i++)
+			for(int i=(floatArray.length-1)/2;i<floatArray.length;i++)
 			{
 				System.out.println(floatArray[i]);//right array
 			}
@@ -165,7 +165,7 @@ for(int i=byteArray.length-1;i>=0;i--)//reverse array
 				System.out.println(shortArray[i]);
 			}
 			System.out.println("right array");
-			for(int i=(shortArray.length-1)/2;i<shortArray.length-1;i++)
+			for(int i=(shortArray.length-1)/2;i<shortArray.length;i++)
 			{
 				System.out.println(shortArray[i]);//right array
 			}
@@ -209,7 +209,7 @@ for(int i=byteArray.length-1;i>=0;i--)//reverse array
 				System.out.println(intArray[i]);
 			}
 			System.out.println("right array");
-			for(int i=(intArray.length-1)/2;i<intArray.length-1;i++)
+			for(int i=(intArray.length-1)/2;i<intArray.length;i++)
 			{
 				System.out.println(intArray[i]);//right array
 			}
