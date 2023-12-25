@@ -223,7 +223,8 @@ for(int i=byteArray.length-1;i>=0;i--)//reverse array
 		
 		System.out.println("odd array values");
 		for(int i=0;i<intArray.length;i++)
-		if(intArray[i]%2!=0)//odd
+		
+	if(intArray[i]%2!=0)//odd
 	
 	
 	{
