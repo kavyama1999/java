@@ -22,6 +22,7 @@ Camera(String brandName,int price,int resolution,CameraType type1,BatteryType ty
 	this.modelYear=modelYear;
     this.type4=type4;
 	this.features=features;
+	//this.hjggj;
 }
 
 
