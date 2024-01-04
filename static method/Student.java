@@ -58,6 +58,7 @@ public static void main(String args[])
 	
 	
 	Student.schoolName="New";
+	student.uniform="red";
 	
 }
 }
