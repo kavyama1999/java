@@ -1,17 +1,17 @@
-//using String class methods
-//isEmpty()   ..Method boolean type
-
-
-public class Company
+public class Company1
 {
 public static void main(String args[])
 {
 
 String value="";
-System.out.println(value.isEmpty());//it returns false
+if(value!=null)//null check
+{
 
+
+System.out.println(value.isEmpty());//it returns true
+}
 String value1="Smith";
-System.out.println(value1.isEmpty());// it return true
+System.out.println(value1.isEmpty());// it returns false
 
 
 //trim()
@@ -23,7 +23,7 @@ System.out.println(val.trim());// it removes the space
 
 //valueOf()
 int num=40;
-String str = String.valueOf(num);//it  coverts differnt types of values into string
+String str = String.valueOf(num);//it  converts differnt types of values into string
 System.out.println(str);
 
 char ch='Y';
