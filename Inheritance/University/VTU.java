@@ -4,9 +4,7 @@ public class VTU extends University
  
  
  String name;
- String category;
- int noOfPages;
- 
+ boolean isAutonomous;
  
 //behaviours
  void givesInformation()
@@ -16,7 +14,7 @@ System.out.println("givesInformation");
 
 void publishArticle()
 {
-System.out.println("dog is fetching");
+System.out.println("publishArticle");
 } 
 
 }
