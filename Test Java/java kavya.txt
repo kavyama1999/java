@@ -1,0 +1,712 @@
+1)java is a object oriented programming language,
+
+*program means set of instructions..code means it is process of taking the instructions to write the code 
+ and sequencially exeutedut.
+
+*programming means when we write the program or code we can communicate with help of computer using object.
+in java everything is in object..
+
+*object means instance of class
+any object we can take it has states and behaviours..
+
+*state means what the object has..
+
+*behaviours means what the object can do..
+
+every object has 4 principles.
+1)Inheritance
+2)Abstraction
+3)Encasulation
+4)Polymorphism 
+
+
+javac:>
+
+javac means is compiler it will compile the whole program.
+when we write the program java virtual machine will compile execute the program
+
+example.suppose one .java file is their how to compile?
+
+first we have to do java filename.java
+if anny error comes it is called intrepreter(means it will cheack line by line)
+
+then complie by javac filename.
+compiler means it convert source  code file into byte code then it will create .class that
+ file will execute by JVM(Java Virtual machine).
+ 
+ 
+ 
+ 2)JDK
+ java development kit it used for developing application
+ we use JDK 1.8 jdk contains JRE
+ 
+ JRE
+ java runtime environment it is used java program to runtime
+ 
+ in JRE it contanins JVM and Libraries
+ 
+ JVM..
+ Java virtual Machine
+ 
+ in any program in java main method will excute by JVM
+like source code it will convert to byte code then one .class file will create that one will excute by JVM
+In code any unwanted data or variaable it automatically delete by JVM is called Garbage collection.
+
+
+3).java
+It means Source file which will return by programmer.
+
+.class
+It means the converted .java file  into byte code then it will create .class file which we cannot read it  only understand by computer like O's and 1's..
+
+we can run with the .class file in  any laptop or system..
+.class file we can run anyplatform..like windows,linux,mac.
+
+
+4)..
+
+1)Eclipse
+2)Intellj
+
+
+
+5)
+vary-means it will keep on changing
+
+variable is a container to store the values or data.
+
+why we use variable means once decalre variable  if want to change and can be use anywhre and reassign..
+
+Syntax:
+
+
+Datatype variableName=value;
+
+ex: int age=10;
+age=20 //reassign
+
+there 4 types
+1)local Variable
+2)Instance or Global Variable
+3)Static variable
+4)Parameter variable
+
+
+1)LocalVariablr:  local variable are declared in side the method  of the Block
+
+it can use only inside method block
+
+public class Ball
+{
+pinlic static void main(String  args[])
+{
+
+public void run()
+{
+int a=10;
+float num=20.3f;
+}
+}
+
+
+
+Instance variable;
+Instance variable can be used in side yhe class but out side the method
+
+public class Instance
+{
+
+String name="Smithan";
+int age=14;
+
+
+
+public  static void main(String args[])
+{
+
+System.out.println("Instance variable");
+}
+}
+
+
+
+Static variable:
+
+Static variable can be used in only static block
+
+static
+{
+int age=10;
+{
+
+
+Parameter variable:
+
+it can used in any Method braces() to pass the parametrs..
+
+6)
+
+in java everything is in object oriented..
+meand with help of object we can create class
+when create the class the it meann java file
+so any java program that will object-oriented..
+
+
+
+7)it will compile and Excecute  
+but nothing msg 
+
+
+8)
+Data type means the data is which type  of data we have to find
+
+
+types
+
+
+1)primitive data type
+2)Non- primitive data type
+
+1)primitive data types are builtin data types..
+
+there are 8 primitive data types;
+
+8bit is equal to  1 byte
+
+1)byte
+2)short
+3)int
+4)long 
+5)float
+6)double
+7)boolean
+8)char
+
+
+1)byte 
+
+it has 1 byte size
+range is -128 to +127
+
+ex; byte age=45;
+
+2)short
+
+it has 2 byte size
+range is -32678 to +32767
+
+ex:short value=1520;
+
+
+3)int 
+
+it has 4 byte size.
+
+
+ex:int age=20;
+
+4)long
+
+it has 8 byte  size.
+
+ex; long num=9.524856l;
+
+5)float 
+
+it has 4 byte size
+it has after 2 or 3 decimal.
+
+ex:float val=3.34f;
+
+6)double
+
+it has 8 byte size.
+
+ex: double val=25.245554d;
+
+
+7)boolean
+
+it has  1 bit size
+
+ex:it returns true os false
+
+
+8) char
+
+it has 2 byte size
+
+it is denoted by single quote ('k')
+
+ex:
+ char val='Y';
+
+
+
+
+
+2) Non-primitive data types.
+
+1)String 
+2)Array
+3)In any class name is a data type but which data type means non-primitive data type
+
+
+1)String
+
+is a collecctin of heterogenous elements..
+it is denoted by double quotes ""
+
+Ex: string name="Sathwik";
+
+
+2)Array
+
+is collection of homegenous or similar data values..
+ Array is in fixed size
+
+Array index always start with index 0..
+
+
+Ex int[] intArray={2,5,4,8};
+
+
+9)
+
+dot oprator mans connection or connect
+
+example :System.out.println("Msg");
+it will load the data from system and then print it in console.
+
+
+10)
+
+1)simple
+2)Secure
+3)MultiThreading
+4)Platform Independent
+5)Portable
+6)Robust
+
+11)Array is collection of homogenous or similar data values.
+
+Array is in fixed size.
+
+Array index always start with 0.
+
+Ex int [] array={2,45,6,9};
+
+
+
+
+for(int i=0;i<byteArray.length;i++)
+
+12)class 
+class is class name
+Is a blue print of object
+ ex.Fruit  is class ..
+it contains orange .apple.mango it has properties
+
+Object..
+It is a instance of class..
+real-world entity.
+
+object has states and behaviour
+state means what the  object has
+
+Behaviours means what the object can do..
+Every object has 4 priciples
+1)Inheritance
+2)Abstraction
+3)Encapsulation
+4)Polymorphism
+
+
+13)
+with the key word we can proform some funtions
+key word means reserved we cannot change
+
+1)public
+
+2)private
+
+3)char
+
+4)protected
+
+5)package
+
+6)byte
+
+7)return
+
+8)new
+
+9)this()
+
+10)import
+
+
+14)
+
+Constructor is a special method,block of code which will execute  when an object is created..
+
+Rules for creating a constructor
+
+Construcor name should same as class name
+
+There is no return type in construtor
+
+using new keyword we can create object.
+then constructor will create..
+
+types 
+1)default  constructor:
+
+when we are not create a constructor the complier will autimatically privide default constructor
+
+public class Bus
+{
+
+
+public static vloid main(String args[])
+{
+}
+}
+
+
+2)parametrized constructor
+when  constructor contains the values or parameters  are called parameterized constructor.
+
+ex:
+public class Bus
+{
+
+ 
+
+Bus(int a,int b)
+{
+System.out.println("parametrized Constructor");
+}
+
+
+public static vloid main(String args[])
+
+{
+new Bus(10,10);
+
+}
+}
+
+
+
+2)No-parameterized Constructor
+
+when there is no parameters in a Constructor is called no-parameterized Constructor
+
+
+ex:
+public class Bus
+{
+
+ 
+
+Bus()
+{
+System.out.println("No-parametrized Constructor");
+}
+
+
+public static vloid main(String args[])
+
+{
+new Bus();
+
+}
+}
+ 
+* 3 ways to achive constructor
+
+1)chaning the type of parametr
+2)changing number of parameter
+3)chaning the order of parameter
+
+
+15)
+
+Static method is necessary bcz when you run a Java program, the Java Virtual Machine 
+(JVM) calls the main method to start the execution of the program 
+it means so without creating an instance of the class containing the main method.
+that why without creating an object we can execute the program.
+
+types..
+1)static
+
+static method we can accecss using clas name.method or creating instance of the class
+
+
+2)Non-static
+
+in this case we can access only through creating an object of a class or instance of a class
+
+
+
+
+16)
+public class  Bus
+{
+
+pubic static void main(sring args[])
+{
+
+int [] array={12,3,2,45,6,7,6};
+for(int i=0;i<array.length;i++)
+{
+system.out.println(array[i]);
+
+}
+
+}
+}
+
+
+17)
+
+method overloading;
+
+Having the same method name but different parameters is called method overloading:
+
+
+public class Bag
+{
+public static void main(String args[])
+{
+move(10,10);
+move(30,40);
+
+move(34.6f,10);
+
+
+}
+
+
+
+static void move(int val)
+{
+System.out.printl("1 parameters");
+}
+
+static void move(int val2,int val4,)
+{
+System.out.printl("2 parameters");
+}
+
+static void move( float value,int val9)
+{
+System.out.printl("3 parameters");
+}
+}
+
+
+
+
+Method overriding:
+
+Having the same method name but implentation is different..in other class
+
+
+public class car
+{
+
+public static void main(String args[])
+{
+public void run()
+{
+System.out.printlm("Running");
+}
+
+public vloid play()
+{
+System.out.printlm("playing");
+}
+}
+
+public class Bike()
+
+{
+
+public static void main(String args[])
+{
+public vloid dress()
+{
+System.out.printlm(" dress");
+}
+
+
+@Ovverride
+public void run()
+{
+System.out.printlm("Running in Bike");
+}
+@Override
+public vloid play()
+{
+System.out.printlm("playing in bike");
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
